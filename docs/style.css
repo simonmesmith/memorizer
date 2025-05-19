@@ -1,0 +1,16 @@
+#memorization-text {
+    white-space: pre-wrap;
+    font-size: 1.25rem;
+    line-height: 1.6;
+}
+
+.blank {
+    cursor: pointer;
+    text-decoration: underline;
+    color: var(--bs-primary);
+}
+
+.blank.revealed {
+    background-color: rgba(13, 110, 253, 0.1);
+    text-decoration: none;
+}
